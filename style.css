@@ -1,0 +1,48 @@
+body {
+    background-color: #111; /* Dark background color */
+    color: #fff; /* Light text color */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #3498db; /* Bluish text color */
+}
+
+button {
+    background-color: #3498db; /* Bluish button color */
+    color: #fff; /* Light text color */
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker bluish color on hover */
+}
+
+#webcam-container {
+    margin-top: 20px;
+    position: relative;
+}
+
+#label-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#label-container > div {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
